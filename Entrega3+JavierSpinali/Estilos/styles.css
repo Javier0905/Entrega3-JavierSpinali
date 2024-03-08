@@ -1,0 +1,94 @@
+/* Estilos para el formulario de búsqueda */
+#search form {
+    margin-bottom: 20px;
+}
+
+
+.destination-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.destination-images img {
+    max-width: 190px; /* Ancho máximo para todas las imágenes */
+    height: 190px; /* Esto permite que la altura se ajuste automáticamente para mantener la proporción */
+    margin-right: 10px;
+}
+
+.destination-option select {
+    width: calc(50% - 10px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#search input[type="date"],
+#search input[type="date"]:focus {
+    width: calc(50% - 10px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#search button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#search button:hover {
+    background-color: #555;
+}
+
+/* Estilos para el carrito de compras */
+#cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#cart-items li {
+    margin-bottom: 10px;
+}
+
+#checkout-btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#checkout-btn:hover {
+    background-color: #555;
+}
+
+
+body {
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
